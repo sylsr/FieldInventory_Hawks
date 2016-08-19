@@ -78,6 +78,14 @@ public class BoiseHawksInventoryForm extends JFrame {
 		// TODO add your code here
 	}
 
+	private void menuItem14MouseClicked(MouseEvent e) {
+		// TODO add your code here
+	}
+
+	private void menuItem13MouseClicked(MouseEvent e) {
+		// TODO add your code here
+	}
+
 	private void initComponents() {
 		// JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
 		// Generated using JFormDesigner Evaluation license - Marcus Israel
@@ -89,7 +97,9 @@ public class BoiseHawksInventoryForm extends JFrame {
 		menuBar1 = new JMenuBar();
 		menu1 = new JMenu();
 		menuItem2 = new JMenuItem();
+		menuItem14 = new JMenuItem();
 		menuItem5 = new JMenuItem();
+		menuItem13 = new JMenuItem();
 		menuItem1 = new JMenuItem();
 		menuItem3 = new JMenuItem();
 		menuItem4 = new JMenuItem();
@@ -178,6 +188,16 @@ public class BoiseHawksInventoryForm extends JFrame {
 					});
 					menu1.add(menuItem2);
 
+					//---- menuItem14 ----
+					menuItem14.setText("Infield Fertilizer");
+					menuItem14.addMouseListener(new MouseAdapter() {
+						@Override
+						public void mouseClicked(MouseEvent e) {
+							menuItem14MouseClicked(e);
+						}
+					});
+					menu1.add(menuItem14);
+
 					//---- menuItem5 ----
 					menuItem5.setText("Line Paint");
 					menuItem5.addMouseListener(new MouseAdapter() {
@@ -187,6 +207,16 @@ public class BoiseHawksInventoryForm extends JFrame {
 						}
 					});
 					menu1.add(menuItem5);
+
+					//---- menuItem13 ----
+					menuItem13.setText("Outfield Fertilizer");
+					menuItem13.addMouseListener(new MouseAdapter() {
+						@Override
+						public void mouseClicked(MouseEvent e) {
+							menuItem13MouseClicked(e);
+						}
+					});
+					menu1.add(menuItem13);
 
 					//---- menuItem1 ----
 					menuItem1.setText("Turface All Purpose Mound Clay");
@@ -209,7 +239,7 @@ public class BoiseHawksInventoryForm extends JFrame {
 					menu1.add(menuItem3);
 
 					//---- menuItem4 ----
-					menuItem4.setText("Turface Quick Dry");
+					menuItem4.setText("Turface Quick Drymenu ");
 					menuItem4.addMouseListener(new MouseAdapter() {
 						@Override
 						public void mouseClicked(MouseEvent e) {
@@ -315,7 +345,9 @@ public class BoiseHawksInventoryForm extends JFrame {
 	private JMenuBar menuBar1;
 	private JMenu menu1;
 	private JMenuItem menuItem2;
+	private JMenuItem menuItem14;
 	private JMenuItem menuItem5;
+	private JMenuItem menuItem13;
 	private JMenuItem menuItem1;
 	private JMenuItem menuItem3;
 	private JMenuItem menuItem4;
