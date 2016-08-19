@@ -1,3 +1,5 @@
+package org.hawks.main;
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -16,10 +18,9 @@ public class BoiseHawksInventoryForm extends JFrame {
 	public BoiseHawksInventoryForm() {
 		initComponents();
 	}
-
+	//Mound clay
 	private void button1MouseClicked(MouseEvent e) {
-		// TODO add your code here
-		
+	
 	}
 
 	private void okButtonMouseClicked(MouseEvent e) {
@@ -124,12 +125,7 @@ public class BoiseHawksInventoryForm extends JFrame {
 			dialogPane.setBorder(Borders.createEmptyBorder("7dlu, 7dlu, 7dlu, 7dlu"));
 
 			// JFormDesigner evaluation mark
-			dialogPane.setBorder(new javax.swing.border.CompoundBorder(
-				new javax.swing.border.TitledBorder(new javax.swing.border.EmptyBorder(0, 0, 0, 0),
-					"JFormDesigner Evaluation", javax.swing.border.TitledBorder.CENTER,
-					javax.swing.border.TitledBorder.BOTTOM, new java.awt.Font("Dialog", java.awt.Font.BOLD, 12),
-					java.awt.Color.red), dialogPane.getBorder())); dialogPane.addPropertyChangeListener(new java.beans.PropertyChangeListener(){public void propertyChange(java.beans.PropertyChangeEvent e){if("border".equals(e.getPropertyName()))throw new RuntimeException();}});
-
+			
 			dialogPane.setLayout(new BorderLayout());
 
 			//======== buttonBar ========
@@ -331,6 +327,7 @@ public class BoiseHawksInventoryForm extends JFrame {
 		}
 		contentPane.add(dialogPane, BorderLayout.CENTER);
 		pack();
+		setVisible(true);
 		setLocationRelativeTo(getOwner());
 		// JFormDesigner - End of component initialization  //GEN-END:initComponents
 	}
